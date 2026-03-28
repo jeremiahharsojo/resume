@@ -1,0 +1,68 @@
+\documentclass[11pt, letterpaper]{article}
+
+% Essential Packages
+\usepackage[margin=0.5in]{geometry} % Sets margins
+\usepackage{titlesec}               % Custom section formatting
+\usepackage{enumitem}               % Custom list formatting
+\usepackage{hyperref}               % Clickable links
+
+% Formatting adjustments
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+\setlength{\parindent}{0pt}
+
+% Link colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\huge \textbf{Jeremiah Harsojo}} \\ \vspace{2pt}
+    Berkeley, CA $|$ \href{mailto:jeremiahn.harsojo@gmail.com}{jeremiahn.harsojo@gmail.com} $|$ (559) 321-5659 \\
+    \href{https://github.com/jeremiahharsojo}{github.com/jeremiahharsojo} $|$ \href{https://linkedin.com/in/jeremiahharsojo}{linkedin.com/in/jeremiahharsojo}
+\end{center}
+
+% --- EDUCATION ---
+\section{Education}
+\textbf{University of California, Berkeley} \hfill Berkeley, CA \\
+Bachelor of Science in Computer Science \hfill Expected May 2026 \\
+\textbf{Relevant Coursework:} Computer Graphics (CS184), Database Systems (CS186), Data Structures, Algorithms
+
+% --- TECHNICAL SKILLS ---
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{Languages:} C++, Java, Python, Rust, SQL, LaTeX, 
+    \item \textbf{Tools \& Environments:} Git, uv, Linux, VSCode, SQLite
+\end{itemize}
+
+% --- PROJECTS ---
+\section{Projects}
+
+\textbf{Software Rasterizer} $|$ \textit{C++} \hfill \textit{Spring 2026}
+\begin{itemize}[leftmargin=0.25in, itemsep=1pt]
+    \item Built a software rasterizer to draw triangles, implementing supersampling for antialiasing.
+    \item Developed texture mapping capabilities utilizing barycentric coordinates.
+    \item Implemented halfedge data structures to support mesh operations like edge flipping and splitting.
+\end{itemize}
+
+\textbf{Relational Database Implementation} $|$ \textit{Java} \hfill \textit{Spring 2026}
+\begin{itemize}[leftmargin=0.25in, itemsep=1pt]
+    \item Implemented a B+ Tree index, managing LeafNode and InnerNode splitting operations.
+    \item Engineered core database methods including \texttt{get}, \texttt{put}, and \texttt{bulkLoad} to optimize search and insertion performance.
+\end{itemize}
+
+% --- EXPERIENCE ---
+\section{Experience}
+\textbf{The Student Senate for California Community Colleges} \hfill Bay Area, CA \\
+\textit{Student Intern} \hfill \textit{August 2023 -- July 2024}
+\begin{itemize}[leftmargin=0.25in, itemsep=1pt]
+    \item 
+\end{itemize}
+
+\end{document}
